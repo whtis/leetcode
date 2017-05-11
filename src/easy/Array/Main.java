@@ -2,9 +2,11 @@ package easy.Array;
 
 class Main {
     public static void main(String[] args) {
-        E53 e = new E53();
-        int[] nums = new int[]{1, 2};
-        p(e.maxSubArray(nums));
+        E88 e = new E88();
+
+        int[] nums1 = new int[0];
+        int[] nums2 = new int[]{1};
+        e.merge(nums1, 0, nums2, 1);
 
 
     }
