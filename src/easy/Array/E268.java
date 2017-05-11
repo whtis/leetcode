@@ -1,3 +1,5 @@
+package easy.Array;
+
 import java.util.Arrays;
 
 /**

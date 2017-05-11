@@ -1,3 +1,5 @@
+package easy.Array;
+
 public class E35 {
 
     public static int searchInsert(int[] nums, int target) {

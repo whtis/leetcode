@@ -1,3 +1,5 @@
+package easy.Array;
+
 class Main {
     public static void main(String[] args) {
         E53 e = new E53();

@@ -1,3 +1,5 @@
+package easy.Array;
+
 /**
  * Created by wht on 2017/4/29.
  */
