@@ -4,8 +4,8 @@ class Main {
     public static void main(String[] args) {
         E167 e = new E167();
 
-        int[] nums = new int[]{2, 7, 11, 15};
-        e.twoSum(nums, 9);
+        int[] nums = new int[]{-1, 0};
+        e.twoSum(nums, -1);
 
 
     }
