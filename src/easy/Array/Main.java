@@ -2,10 +2,10 @@ package easy.Array;
 
 class Main {
     public static void main(String[] args) {
-        E167 e = new E167();
+        E566 e = new E566();
 
-        int[] nums = new int[]{-1, 0};
-        e.twoSum(nums, -1);
+        int[][] nums = new int[][]{{1,2},{3,4}};
+        e.matrixReshape(nums, 1, 4);
 
 
     }
