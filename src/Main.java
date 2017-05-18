@@ -1,11 +1,9 @@
-import HashTable.E500;
+import HashTable.*;
 
 class Main {
     public static void main(String[] args) {
-        E500 e = new E500();
-        String[] strings = new String[]{"Hello", "Alaska", "Dad", "Peace"};
-        String[] s = e.findWords(strings);
-        int k = 0;
+        E438 e = new E438();
+        e.findAnagrams("abab", "ba");
     }
 
     public static void p(Object o) {
