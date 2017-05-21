@@ -2,8 +2,8 @@ import HashTable.*;
 
 class Main {
     public static void main(String[] args) {
-        E438 e = new E438();
-        e.findAnagrams("abab", "ba");
+        E205 e = new E205();
+        p(e.isIsomorphic("foo", "bar"));
     }
 
     public static void p(Object o) {
