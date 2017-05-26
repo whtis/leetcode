@@ -2,8 +2,8 @@ import HashTable.*;
 
 class Main {
     public static void main(String[] args) {
-        E205 e = new E205();
-        p(e.isIsomorphic("foo", "bar"));
+        E202 e = new E202();
+        p(e.isHappy(2));
     }
 
     public static void p(Object o) {
