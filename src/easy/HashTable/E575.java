@@ -1,4 +1,4 @@
-package HashTable;
+package easy.HashTable;
 
 import java.util.HashSet;
 

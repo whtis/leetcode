@@ -1,4 +1,4 @@
-package HashTable;
+package easy.HashTable;
 
 /**
  * Created by wht on 2017/5/27.
