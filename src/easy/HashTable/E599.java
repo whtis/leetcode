@@ -16,13 +16,14 @@ public class E599 {
         for (int i = 0; i < list2.length; i++) {
             String s = list2[i];
             if (map.containsKey(s)) {
-                map.put(s, map.get(s) + i);
-                sum = sum > map.get(s) + i ? sum : map.get(s) + i;
+                int val = map.get(s);
+                map.put(s, -(val + i));
+                sum = sum > val + i ? val + i : sum;
             }
         }
         Set<String> set = map.keySet();
         for (String s : set) {
-            if (Objects.equals(map.get(s), sum)) {
+            if (Objects.equals(map.get(s), -sum)) {
                 res.add(s);
             }
         }
