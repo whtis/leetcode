@@ -24,7 +24,8 @@ public class E728 {
     private boolean checkSDN(int left) {
         String nStr = String.valueOf(left);
         for (int i = 0; i < nStr.length(); i++) {
-            if (left % Integer.parseInt(String.valueOf(nStr.charAt(i))) != 0) {
+            int target = Integer.parseInt(String.valueOf(nStr.charAt(i)));
+            if (target == 0 || left % target != 0) {
                 return false;
             }
         }
